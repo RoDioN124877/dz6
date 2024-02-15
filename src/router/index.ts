@@ -15,6 +15,18 @@ const router = createRouter({
       name: 'photo',
       props: true,
       component: () => import('../views/PhotoView.vue')
+    },
+    {
+      path: '/gallary',
+      name: 'gallary',
+      props: true,
+      component: () => import('../views/GallaryView.vue')
+    },
+    {
+      path: '/contacts',
+      name: 'contacts',
+      props: true,
+      component: () => import('../views/ContactsView.vue')
     }
   ]
 })
